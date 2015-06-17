@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1365671B322719000ADBA6 /* TextInput.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1365661B322719000ADBA6 /* TextInput.rtf */; };
 		3ADA72B61B31EABC00BC51DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72B51B31EABC00BC51DA /* main.m */; };
 		3ADA72B91B31EABC00BC51DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72B81B31EABC00BC51DA /* AppDelegate.m */; };
 		3ADA72BC1B31EABC00BC51DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72BB1B31EABC00BC51DA /* ViewController.m */; };
@@ -14,6 +15,27 @@
 		3ADA72C11B31EABC00BC51DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADA72C01B31EABC00BC51DA /* Images.xcassets */; };
 		3ADA72C41B31EABC00BC51DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADA72C21B31EABC00BC51DA /* LaunchScreen.xib */; };
 		3ADA72D01B31EABC00BC51DA /* TTSD_SKYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72CF1B31EABC00BC51DA /* TTSD_SKYTests.m */; };
+		3ADA72EB1B31EB7700BC51DA /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72DB1B31EB7700BC51DA /* AFNetworkActivityIndicatorManager.m */; };
+		3ADA72EC1B31EB7700BC51DA /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72DD1B31EB7700BC51DA /* UIActivityIndicatorView+AFNetworking.m */; };
+		3ADA72ED1B31EB7700BC51DA /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72DF1B31EB7700BC51DA /* UIAlertView+AFNetworking.m */; };
+		3ADA72EE1B31EB7700BC51DA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72E11B31EB7700BC51DA /* UIButton+AFNetworking.m */; };
+		3ADA72EF1B31EB7700BC51DA /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72E31B31EB7700BC51DA /* UIImageView+AFNetworking.m */; };
+		3ADA72F01B31EB7700BC51DA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72E61B31EB7700BC51DA /* UIProgressView+AFNetworking.m */; };
+		3ADA72F11B31EB7700BC51DA /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72E81B31EB7700BC51DA /* UIRefreshControl+AFNetworking.m */; };
+		3ADA72F21B31EB7700BC51DA /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72EA1B31EB7700BC51DA /* UIWebView+AFNetworking.m */; };
+		3ADA73071B31EB8F00BC51DA /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72F51B31EB8F00BC51DA /* AFHTTPRequestOperation.m */; };
+		3ADA73081B31EB8F00BC51DA /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72F71B31EB8F00BC51DA /* AFHTTPRequestOperationManager.m */; };
+		3ADA73091B31EB8F00BC51DA /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72F91B31EB8F00BC51DA /* AFHTTPSessionManager.m */; };
+		3ADA730A1B31EB8F00BC51DA /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72FC1B31EB8F00BC51DA /* AFNetworkReachabilityManager.m */; };
+		3ADA730B1B31EB8F00BC51DA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA72FE1B31EB8F00BC51DA /* AFSecurityPolicy.m */; };
+		3ADA730C1B31EB8F00BC51DA /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA73001B31EB8F00BC51DA /* AFURLConnectionOperation.m */; };
+		3ADA730D1B31EB8F00BC51DA /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA73021B31EB8F00BC51DA /* AFURLRequestSerialization.m */; };
+		3ADA730E1B31EB8F00BC51DA /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA73041B31EB8F00BC51DA /* AFURLResponseSerialization.m */; };
+		3ADA730F1B31EB8F00BC51DA /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA73061B31EB8F00BC51DA /* AFURLSessionManager.m */; };
+		3ADA73111B31ED7400BC51DA /* romo-programmable-robot-companion-ios-lighting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3ADA73101B31ED7400BC51DA /* romo-programmable-robot-companion-ios-lighting.jpg */; };
+		3ADA73131B31EDB500BC51DA /* 1617_romo_smartphone_controlled_robot_iphone4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3ADA73121B31EDB500BC51DA /* 1617_romo_smartphone_controlled_robot_iphone4.jpg */; };
+		3ADA73171B31FA1100BC51DA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADA73161B31FA1100BC51DA /* AudioToolbox.framework */; };
+		3ADA73191B32133200BC51DA /* translate_tts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3ADA73181B32133200BC51DA /* translate_tts.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A1365661B322719000ADBA6 /* TextInput.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = TextInput.rtf; sourceTree = "<group>"; };
 		3ADA72B01B31EABC00BC51DA /* TTSD-SKY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTSD-SKY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADA72B41B31EABC00BC51DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ADA72B51B31EABC00BC51DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +63,46 @@
 		3ADA72C91B31EABC00BC51DA /* TTSD-SKYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTSD-SKYTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADA72CE1B31EABC00BC51DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ADA72CF1B31EABC00BC51DA /* TTSD_SKYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSD_SKYTests.m; sourceTree = "<group>"; };
+		3ADA72DA1B31EB7700BC51DA /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		3ADA72DB1B31EB7700BC51DA /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		3ADA72DC1B31EB7700BC51DA /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		3ADA72DD1B31EB7700BC51DA /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		3ADA72DE1B31EB7700BC51DA /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		3ADA72DF1B31EB7700BC51DA /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		3ADA72E01B31EB7700BC51DA /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		3ADA72E11B31EB7700BC51DA /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		3ADA72E21B31EB7700BC51DA /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		3ADA72E31B31EB7700BC51DA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		3ADA72E41B31EB7700BC51DA /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		3ADA72E51B31EB7700BC51DA /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		3ADA72E61B31EB7700BC51DA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		3ADA72E71B31EB7700BC51DA /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		3ADA72E81B31EB7700BC51DA /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		3ADA72E91B31EB7700BC51DA /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		3ADA72EA1B31EB7700BC51DA /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		3ADA72F41B31EB8F00BC51DA /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		3ADA72F51B31EB8F00BC51DA /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		3ADA72F61B31EB8F00BC51DA /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		3ADA72F71B31EB8F00BC51DA /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		3ADA72F81B31EB8F00BC51DA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		3ADA72F91B31EB8F00BC51DA /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		3ADA72FA1B31EB8F00BC51DA /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		3ADA72FB1B31EB8F00BC51DA /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		3ADA72FC1B31EB8F00BC51DA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		3ADA72FD1B31EB8F00BC51DA /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		3ADA72FE1B31EB8F00BC51DA /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		3ADA72FF1B31EB8F00BC51DA /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		3ADA73001B31EB8F00BC51DA /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		3ADA73011B31EB8F00BC51DA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		3ADA73021B31EB8F00BC51DA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		3ADA73031B31EB8F00BC51DA /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		3ADA73041B31EB8F00BC51DA /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		3ADA73051B31EB8F00BC51DA /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		3ADA73061B31EB8F00BC51DA /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		3ADA73101B31ED7400BC51DA /* romo-programmable-robot-companion-ios-lighting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "romo-programmable-robot-companion-ios-lighting.jpg"; sourceTree = "<group>"; };
+		3ADA73121B31EDB500BC51DA /* 1617_romo_smartphone_controlled_robot_iphone4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1617_romo_smartphone_controlled_robot_iphone4.jpg; sourceTree = "<group>"; };
+		3ADA73161B31FA1100BC51DA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3ADA73181B32133200BC51DA /* translate_tts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = translate_tts.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADA73171B31FA1100BC51DA /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +127,7 @@
 		3ADA72A71B31EABC00BC51DA = {
 			isa = PBXGroup;
 			children = (
+				3ADA73161B31FA1100BC51DA /* AudioToolbox.framework */,
 				3ADA72B21B31EABC00BC51DA /* TTSD-SKY */,
 				3ADA72CC1B31EABC00BC51DA /* TTSD-SKYTests */,
 				3ADA72B11B31EABC00BC51DA /* Products */,
@@ -81,12 +146,18 @@
 		3ADA72B21B31EABC00BC51DA /* TTSD-SKY */ = {
 			isa = PBXGroup;
 			children = (
+				3A1365661B322719000ADBA6 /* TextInput.rtf */,
+				3ADA73181B32133200BC51DA /* translate_tts.mp3 */,
+				3ADA73101B31ED7400BC51DA /* romo-programmable-robot-companion-ios-lighting.jpg */,
+				3ADA73121B31EDB500BC51DA /* 1617_romo_smartphone_controlled_robot_iphone4.jpg */,
 				3ADA72B71B31EABC00BC51DA /* AppDelegate.h */,
 				3ADA72B81B31EABC00BC51DA /* AppDelegate.m */,
 				3ADA72BA1B31EABC00BC51DA /* ViewController.h */,
 				3ADA72BB1B31EABC00BC51DA /* ViewController.m */,
 				3ADA72BD1B31EABC00BC51DA /* Main.storyboard */,
 				3ADA72C01B31EABC00BC51DA /* Images.xcassets */,
+				3ADA72F31B31EB8F00BC51DA /* AFNetworking */,
+				3ADA72D91B31EB7700BC51DA /* UIKit+AFNetworking */,
 				3ADA72C21B31EABC00BC51DA /* LaunchScreen.xib */,
 				3ADA72B31B31EABC00BC51DA /* Supporting Files */,
 			);
@@ -117,6 +188,58 @@
 				3ADA72CE1B31EABC00BC51DA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ADA72D91B31EB7700BC51DA /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3ADA72DA1B31EB7700BC51DA /* AFNetworkActivityIndicatorManager.h */,
+				3ADA72DB1B31EB7700BC51DA /* AFNetworkActivityIndicatorManager.m */,
+				3ADA72DC1B31EB7700BC51DA /* UIActivityIndicatorView+AFNetworking.h */,
+				3ADA72DD1B31EB7700BC51DA /* UIActivityIndicatorView+AFNetworking.m */,
+				3ADA72DE1B31EB7700BC51DA /* UIAlertView+AFNetworking.h */,
+				3ADA72DF1B31EB7700BC51DA /* UIAlertView+AFNetworking.m */,
+				3ADA72E01B31EB7700BC51DA /* UIButton+AFNetworking.h */,
+				3ADA72E11B31EB7700BC51DA /* UIButton+AFNetworking.m */,
+				3ADA72E21B31EB7700BC51DA /* UIImageView+AFNetworking.h */,
+				3ADA72E31B31EB7700BC51DA /* UIImageView+AFNetworking.m */,
+				3ADA72E41B31EB7700BC51DA /* UIKit+AFNetworking.h */,
+				3ADA72E51B31EB7700BC51DA /* UIProgressView+AFNetworking.h */,
+				3ADA72E61B31EB7700BC51DA /* UIProgressView+AFNetworking.m */,
+				3ADA72E71B31EB7700BC51DA /* UIRefreshControl+AFNetworking.h */,
+				3ADA72E81B31EB7700BC51DA /* UIRefreshControl+AFNetworking.m */,
+				3ADA72E91B31EB7700BC51DA /* UIWebView+AFNetworking.h */,
+				3ADA72EA1B31EB7700BC51DA /* UIWebView+AFNetworking.m */,
+			);
+			name = "UIKit+AFNetworking";
+			path = "../../../../Downloads/Tutorial 2/NLPRestService/UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		3ADA72F31B31EB8F00BC51DA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3ADA72F41B31EB8F00BC51DA /* AFHTTPRequestOperation.h */,
+				3ADA72F51B31EB8F00BC51DA /* AFHTTPRequestOperation.m */,
+				3ADA72F61B31EB8F00BC51DA /* AFHTTPRequestOperationManager.h */,
+				3ADA72F71B31EB8F00BC51DA /* AFHTTPRequestOperationManager.m */,
+				3ADA72F81B31EB8F00BC51DA /* AFHTTPSessionManager.h */,
+				3ADA72F91B31EB8F00BC51DA /* AFHTTPSessionManager.m */,
+				3ADA72FA1B31EB8F00BC51DA /* AFNetworking.h */,
+				3ADA72FB1B31EB8F00BC51DA /* AFNetworkReachabilityManager.h */,
+				3ADA72FC1B31EB8F00BC51DA /* AFNetworkReachabilityManager.m */,
+				3ADA72FD1B31EB8F00BC51DA /* AFSecurityPolicy.h */,
+				3ADA72FE1B31EB8F00BC51DA /* AFSecurityPolicy.m */,
+				3ADA72FF1B31EB8F00BC51DA /* AFURLConnectionOperation.h */,
+				3ADA73001B31EB8F00BC51DA /* AFURLConnectionOperation.m */,
+				3ADA73011B31EB8F00BC51DA /* AFURLRequestSerialization.h */,
+				3ADA73021B31EB8F00BC51DA /* AFURLRequestSerialization.m */,
+				3ADA73031B31EB8F00BC51DA /* AFURLResponseSerialization.h */,
+				3ADA73041B31EB8F00BC51DA /* AFURLResponseSerialization.m */,
+				3ADA73051B31EB8F00BC51DA /* AFURLSessionManager.h */,
+				3ADA73061B31EB8F00BC51DA /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = "../../../../Downloads/Tutorial 2/NLPRestService/AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +322,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADA73131B31EDB500BC51DA /* 1617_romo_smartphone_controlled_robot_iphone4.jpg in Resources */,
+				3A1365671B322719000ADBA6 /* TextInput.rtf in Resources */,
 				3ADA72BF1B31EABC00BC51DA /* Main.storyboard in Resources */,
 				3ADA72C41B31EABC00BC51DA /* LaunchScreen.xib in Resources */,
+				3ADA73191B32133200BC51DA /* translate_tts.mp3 in Resources */,
 				3ADA72C11B31EABC00BC51DA /* Images.xcassets in Resources */,
+				3ADA73111B31ED7400BC51DA /* romo-programmable-robot-companion-ios-lighting.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +346,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADA73071B31EB8F00BC51DA /* AFHTTPRequestOperation.m in Sources */,
+				3ADA72ED1B31EB7700BC51DA /* UIAlertView+AFNetworking.m in Sources */,
+				3ADA72EB1B31EB7700BC51DA /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3ADA72F11B31EB7700BC51DA /* UIRefreshControl+AFNetworking.m in Sources */,
+				3ADA72EE1B31EB7700BC51DA /* UIButton+AFNetworking.m in Sources */,
+				3ADA730F1B31EB8F00BC51DA /* AFURLSessionManager.m in Sources */,
+				3ADA73091B31EB8F00BC51DA /* AFHTTPSessionManager.m in Sources */,
+				3ADA72EF1B31EB7700BC51DA /* UIImageView+AFNetworking.m in Sources */,
+				3ADA730A1B31EB8F00BC51DA /* AFNetworkReachabilityManager.m in Sources */,
+				3ADA72F21B31EB7700BC51DA /* UIWebView+AFNetworking.m in Sources */,
+				3ADA730E1B31EB8F00BC51DA /* AFURLResponseSerialization.m in Sources */,
+				3ADA730D1B31EB8F00BC51DA /* AFURLRequestSerialization.m in Sources */,
+				3ADA730C1B31EB8F00BC51DA /* AFURLConnectionOperation.m in Sources */,
+				3ADA73081B31EB8F00BC51DA /* AFHTTPRequestOperationManager.m in Sources */,
+				3ADA72F01B31EB7700BC51DA /* UIProgressView+AFNetworking.m in Sources */,
+				3ADA72EC1B31EB7700BC51DA /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				3ADA730B1B31EB8F00BC51DA /* AFSecurityPolicy.m in Sources */,
 				3ADA72BC1B31EABC00BC51DA /* ViewController.m in Sources */,
 				3ADA72B91B31EABC00BC51DA /* AppDelegate.m in Sources */,
 				3ADA72B61B31EABC00BC51DA /* main.m in Sources */,
@@ -416,6 +560,7 @@
 				3ADA72D51B31EABC00BC51DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3ADA72D61B31EABC00BC51DA /* Build configuration list for PBXNativeTarget "TTSD-SKYTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +569,7 @@
 				3ADA72D81B31EABC00BC51DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
