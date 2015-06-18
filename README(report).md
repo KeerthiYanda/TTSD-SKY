@@ -6,7 +6,7 @@ In our application we provided a text box so that user can enter input text whic
 
 Intructions:
 
-Run the application using XCode.
-Enter the text which you want to listen into the text box 
-And click on "Speak On" button. 
-Now you will be able to listen the text you have typed. Enjoy the app :)
+1) Run the application using XCode.
+2) Enter the text which you want to listen into the text box 
+3) And click on "Speak On" button. 
+4) Now you will be able to listen the text you have typed. Enjoy the app :)
