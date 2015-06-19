@@ -7,7 +7,7 @@ In our application we provided a text box so that user can enter input text whic
 Api URL:
 http://translate.google.com/translate_tts
 
-Intructions:
+Instructions:
 
 1) Run the application using XCode.
 2) Enter the text which you want to listen into the text box 
